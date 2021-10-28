@@ -34,7 +34,7 @@ const FacultyHome = () => {
         <Route  exact path="/faculty/class">
         <FacClass />
         </Route>
-        <Route  exact path="/faculty/notes">
+        {/* <Route  exact path="/faculty/notes">
         <Notes />
         </Route>
         <Route  exact path="/faculty/assignment">
@@ -42,7 +42,7 @@ const FacultyHome = () => {
         </Route>
         <Route path="/faculty/disscussion">
         <Discussion />
-        </Route>
+        </Route> */}
         <Route  exact path="/faculty/submission">
         <Submissions />
         </Route>
