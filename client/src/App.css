@@ -1,0 +1,324 @@
+*{
+  font-family: 'Comfortaa', cursive;
+  /* font-family: 'Style Script', cursive; */
+}
+
+.App {
+  text-align: center;
+}
+/*waste*/
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.break-line{
+  white-space: pre-wrap;
+}
+.material-icons {
+  font-size: 30px;
+   color: white;
+ }
+
+/* For Sign up and log */
+.form{
+  display: flex;
+ 
+}
+
+
+.cursive{
+  font-family: 'Style Script', cursive;
+  justify-content: center;
+  flex-direction: column;
+  font-size:100px;
+}
+.comforta{
+  font-family: 'Comfortaa', cursive;
+}
+.smallFont{
+  font-size: 12px;
+}
+
+
+
+
+.inputcss{
+  margin-top: 8%;
+}
+.Logbutton{
+  margin-top: 10%;
+  background: green;
+  
+  border: 2px;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding: 8px 20px 8px 20px;
+
+  align-self: center;
+  
+  border: 2px;
+}
+ .imagecss{
+   min-width: 40%;
+   min-height: 10%;
+   box-shadow: rgba(0, 0, 0, 0.50) 0px 5px 10px 5px;
+   margin-right: 10;
+
+ }
+
+ input {
+  background: none;
+  border: none;
+  padding: 12px 15px;
+  margin-top: 10%;
+  margin: 8px 0;
+  width: 100%;
+  height: 70%;
+  border-bottom: 1px solid white;
+  text-decoration: rgb(152, 76, 76);
+
+}
+select{
+  background: none;
+  border: none;
+  padding: 12px 15px;
+  margin-top: 10%;
+  margin: 8px 0;
+  width: 100%;
+  height: 70%;
+  border-bottom: 1px solid white;
+  text-decoration: white;
+}
+.selecttext
+  {
+    background-color: #282c34;
+  }
+
+ 
+
+/* Sujects viewing on*/
+.Subjects{
+  margin-left: 10%;
+  align-self: center;
+  text-align: center;
+  background: rgba(92, 83, 96, 0.497);
+  box-shadow: rgba(0, 0, 0, 0.50) 0px 20px 50px;
+  border-radius: 10px;
+  justify-content: center;
+  height: 600px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 80%;
+  overflow: scroll;
+  
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+
+
+/* Subject box insider starts*/
+.SubId{
+  margin: 0% 0% 0% 0% ;
+  border-radius: 5px;
+  border: 10px;
+  background: rgba(161, 145, 181, 0.571);
+  min-height: 20%;
+  display: flex;
+  flex-direction: row;
+}
+
+.Details{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  flex: 1;
+}
+  .subName{
+    flex: 2;
+    margin-top: 5%;
+  }
+
+.joinClass{
+  border:0;
+  align-self: center;
+  text-align: center;
+  flex: 1;
+  z-index: 5;
+}
+/* Subject box insider Ends*/
+
+.nav-link{
+  overflow: hidden;
+}
+/* Sujects viewing ends*/
+
+
+/* Class section STARTS HERE */
+
+.Content{
+  background: whitesmoke;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0%;
+  height: 600px;/*maybe you are looking for this  %*/
+  margin-bottom: 2%;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  box-shadow: rgba(0, 0, 0, 0.50) 0px 20px 50px;
+
+}
+.Options{
+  border-radius:  10px 10px 10px 10px;
+  
+  background: grey;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  height: 70px;
+  margin-top: 5px;
+  box-shadow: rgba(0, 0, 0, 0.50) 0px 20px 20px;
+
+
+}
+.Option{
+  align-items: center;
+  align-content: center;
+  flex: 1;
+  margin-top: 10%;
+  border-radius: 10px;
+  background: none;
+  height: 100px;
+  text-decoration: black;
+}
+.Option h4{
+  text-decoration: black;
+  margin-top: 10%;
+  margin-left: 20%;
+}
+
+/* button{
+  border: 0 0 0 0;
+  border: 2px;
+  background: rgba(14, 13, 8, 0.571);
+} */
+
+.PdfName{
+  font-size: 10px;
+}
+.PdfName2{
+  font-size: 15px; 
+}
+
+.test1{
+  background: red;
+}
+.text2{
+  
+  text-align: center;
+}
+
+.overflowForCSS{
+  overflow-y: scroll;
+  height: 45%;
+  width:75%;
+}
+.HeightCSS{
+  height: 50%;
+}
+.width-CSS{
+  width: 100%
+}
+
+.sendbox{
+  /* position : absolute;
+  bottom   : 0; */
+   
+  height:92%
+}
+.messagebox{
+  max-width: 100%;
+  border: 1px;
+  
+  border-radius: 0px 7px 7px 7px ;
+  margin-bottom: 10px;
+}
+.sendermessagebox{
+  width: 100%;
+  border: 1px;
+  margin-right: 10px;
+  float: right;
+  border-radius: 10px 0px 10px 10px ;
+  
+  margin-bottom: 10px;
+  
+}
+.sender{
+  font-size: 10px;
+  bottom: 0;
+  float: right;
+}
+.NOtsender{
+  font-size: 10px;
+  bottom: 0;
+}
+
+.textareaCSS{
+  resize:none;
+  max-height: 40px;
+}
+
+
+
+.Homepage-Container{
+  border: 1px;
+  border-radius: 5px;
+  margin-top: 2%;
+  background: rgb(5, 213, 5);
+  justify-content: center;
+  margin-bottom: 5%;
+  box-shadow: rgba(0, 0, 0, 0.50) 0px 20px 50px;
+
+
+}
+
+
+.mynote-cards{
+  overflow-x: hidden;
+}
+
+.bring-in-center{
+  margin-left: 20%;
+}
+
+
+/* .Background{
+  background: #61dafb;
+  height: 100%;
+  width: 100%;
+} */
+
