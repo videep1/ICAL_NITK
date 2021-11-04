@@ -34,10 +34,10 @@ const FacultyHome = () => {
         <Route  exact path="/faculty/class">
         <FacClass />
         </Route>
-        {/* <Route  exact path="/faculty/notes">
+        <Route  exact path="/faculty/notes">
         <Notes />
         </Route>
-        <Route  exact path="/faculty/assignment">
+        {/*<Route  exact path="/faculty/assignment">
         <Assignment />
         </Route>
         <Route path="/faculty/disscussion">

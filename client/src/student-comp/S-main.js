@@ -30,10 +30,10 @@ const StudentHome = () => {
             <Signup />
         </Route>
 
-        {/* <Route  exact path="/student/notes">
+        <Route  exact path="/student/notes">
         <Notes />
         </Route>
-        <Route  exact path="/student/assignment">
+        {/*<Route  exact path="/student/assignment">
         <Assignment />
         </Route>
         <Route path="/student/disscussion">
