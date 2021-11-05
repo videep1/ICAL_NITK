@@ -69,9 +69,9 @@ const Signup = () =>{
                                 value={user.batch}
                                 onChange={handleInput}
                                     placeholder="Batch" required >
-                                        <option className="selecttext" value="BCS-19">BCS-19</option>
-                                        <option className="selecttext" value="IMT-19">IMT-19</option>
-                                        <option className="selecttext" value="IMG-19">IMG-19</option>
+                                        <option className="selecttext" value="Btech">B-Tech</option>
+                                        <option className="selecttext" value="Mtech">M-Tech</option>
+                                        <option className="selecttext" value="phD">Phd</option>
                                         </select>
 
                             <input className="text-light"  type="text" name="phone"

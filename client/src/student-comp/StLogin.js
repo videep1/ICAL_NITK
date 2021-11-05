@@ -43,8 +43,8 @@ const StLogin = () => {
                 localStorage.setItem("ID", data.studentLogin._id)
                 localStorage.setItem("name", data.studentLogin.name)
                 localStorage.setItem("user", JSON.stringify(data))
-            window.alert(`Yup Login succe3ssfull  ${res.status}`);
-            console.log("Yup Login succe3ssfull ");
+            window.alert(`Login successfull  ${res.status}`);
+            console.log("Login successfull ");
             history.push("/student")
             }
         }
