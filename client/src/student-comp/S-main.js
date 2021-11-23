@@ -33,12 +33,12 @@ const StudentHome = () => {
         <Route  exact path="/student/notes">
         <Notes />
         </Route>
-        {/*<Route  exact path="/student/assignment">
+        <Route  exact path="/student/assignment">
         <Assignment />
         </Route>
         <Route path="/student/disscussion">
             <Discussion />
-        </Route> */}
+        </Route>
 
        </>
 
