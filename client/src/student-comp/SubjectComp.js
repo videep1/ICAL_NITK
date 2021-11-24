@@ -33,6 +33,14 @@ const Subject = () => {
     return (
         <>
         
+                    <div className="card-header bg-secondary border rounded d-flex justify-content-between">
+                        
+                        
+                        <button className="bg-dark border rounded h-5  text-light"  > 
+                            <NavLink className="nav-link text-light" to="/" onClick={(e)=> {window.alert("Successfully logged out")}}>logout</NavLink></button>
+
+                    </div>
+
         <div className="Subjects">
            
             <h2>Enrolled class</h2>

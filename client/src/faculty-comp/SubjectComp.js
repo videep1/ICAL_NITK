@@ -1,6 +1,7 @@
 
 import React, {useState, useEffect} from 'react';
 import {Link, Route} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 //child components
 import FacClass from './FacClass';
@@ -43,6 +44,14 @@ const Subject = () => {
 
     return (
         <>
+
+                    <div className="card-header bg-secondary border rounded d-flex justify-content-between">
+                        
+                        
+                        <button className="bg-dark border rounded h-5  text-light"  > 
+                            <NavLink className="nav-link text-light" to="/" onClick={(e)=> {window.alert("Successfully logged out")}}>logout</NavLink></button>
+
+                    </div>  
         
         <div className="Subjects">
                 
